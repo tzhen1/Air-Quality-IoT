@@ -14,12 +14,12 @@ unsigned long interval_fan = 10000; //60000 1 min, 5000
 #include "ThingSpeak.h"
 ///////////////////////
 
-const char *ssid = "HUAWEI P30 Pro";     // replace with your wifi ssid and wpa2 key
-const char *password = "7c11c1ff179d";   // Wifi-password
+const char *ssid = "huawei phone";     // replace with your wifi ssid and wpa2 key
+const char *password = "hot_spot pass";   // Wifi-password
 
 WiFiClient client;
-unsigned long myChannelNumber = 1933210;
-const char * myWriteAPIKey = "T88EDUNV84VPKXTQ";
+unsigned long myChannelNumber = chan;
+const char * myWriteAPIKey = "API_KEY";
 
 // Timer variables
 unsigned long lastTime = 0;
